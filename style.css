@@ -1,0 +1,102 @@
+p {
+    margin: 0 auto;
+}
+
+body {
+    margin: 0 auto;
+    display: block;
+    font-family: "Lucida Grande", monospace;
+}
+
+#holder {
+    background-color: #3b5998;
+}
+
+#holder2 {
+    background-color: #edf0f5;
+}
+
+#topSection {
+    height: 85px;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 1000px;
+}
+
+.leftColumn {
+    width: 500px;
+}
+
+.leftColumn div p,img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+.leftColumn div img {
+    margin-right: 20px;
+}
+
+#logo {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.rightColumn {
+    width: 450px;
+}
+
+.topRight {
+}
+
+#username {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+#password {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#middleSection {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    color: #333333;
+}
+
+#middleSection .info {
+    border: 1px solid #bdc7d8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.input1 {
+    width: 100%;
+}
+
+.birth {
+    -webkit-appearance: none;
+    padding: 5px 10px 5px 10px;
+}
+
+#signUp {
+    background-image: linear-gradient(rgb(103,174,85),rgb(87,136,67));
+    color: white;
+    width: 250px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc7d8;
+    font-size: 1.1em;
+}
